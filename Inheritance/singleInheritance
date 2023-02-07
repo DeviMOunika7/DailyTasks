@@ -1,0 +1,17 @@
+package inheritance;
+class Inherit{
+	
+	int b=20;
+}
+public class singleInheritance extends Inherit{
+
+	
+	public static void main(String args[])
+	{
+		int a=10;
+	    singleInheritance i=new singleInheritance();
+		System.out.println("The sum of a and b is "+(a+i.b));
+	}
+	
+
+}
